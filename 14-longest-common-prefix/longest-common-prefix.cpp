@@ -41,8 +41,8 @@ public:
                     break;
                  }
                }} }
-            return a;} return "";
-        }return "";
+            return a;}
+        }
       } return ""; 
     }
 };
