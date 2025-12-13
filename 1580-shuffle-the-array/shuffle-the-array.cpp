@@ -5,8 +5,7 @@ public:
         {
             return {};
         }
-        int x = n;
-        int y = 0;
+        int x = n, y = 0;
         vector<int> num2(2*n);
         for (int i=0; i<n*2;i++ )
         {
