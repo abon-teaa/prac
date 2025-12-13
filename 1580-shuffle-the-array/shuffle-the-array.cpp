@@ -1,14 +1,8 @@
 class Solution {
 public:
     vector<int> shuffle(vector<int>& nums, int n) {
-        if(n<1 || n>1000)
+        if(n<1 || n>1000 || nums.size() != 2*n)
         {
-            cout<<"Too long array!";
-            return {};
-        }
-        else if(nums.size() != 2*n)
-        {
-            cout<<"Not accurate n!";
             return {};
         }
         int x = n;
